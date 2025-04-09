@@ -1,0 +1,50 @@
+.weather-card {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(240, 112, 112), rgb(110, 224, 110));
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 14%;
+  }
+  
+  .weather-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .temperature {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .wind {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  
